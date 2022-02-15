@@ -3,25 +3,27 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Personal_Accounting_App;
-public partial class App : Application
+namespace Personal_Accounting_App
 {
-    public App()
+    public partial class App : Application
     {
-        InitializeComponent();
+        public App()
+        {
+            InitializeComponent();
 
-        MainPage = new MainPage();
-    }
+            MainPage = new MainPage();
+        }
 
-    protected override void OnStart()
-    {
-    }
+        protected override void OnStart()
+        {
+        }
 
-    protected override void OnSleep()
-    {
-    }
+        protected override void OnSleep()
+        {
+        }
 
-    protected override void OnResume()
-    {
+        protected override void OnResume()
+        {
+        }
     }
 }
